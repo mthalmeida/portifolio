@@ -21,7 +21,7 @@ const projects = [
   {
     name: 'Lista de tarefas',
     description: 'Desenvolvido um site para organizar uma listagem de tarefas utilizando apenas linguagem JS e CSS com auxilo de Framework.',
-    url: 'https://htmlpreview.github.io/?https://github.com/mthalmeida/portifolio/blob/master/meusProjetos/todoList/index.html'
+    url: 'meusProjetos/todoList/index.html'
   },
 
   {
