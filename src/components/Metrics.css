@@ -1,0 +1,23 @@
+#Metricas {
+  padding-top: 200px;
+  padding-bottom: 240px;
+  top: 1300px;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  position: relative;
+  background-color: #07162ecc;
+  background: radial-gradient(rgba(0, 0, 0, 0.404), rgb(0, 0, 0)), url('../../public/images/background.jpg') center center no-repeat fixed;
+}
+
+.githubCard {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.metric2 {
+  margin-left: 30px;
+}

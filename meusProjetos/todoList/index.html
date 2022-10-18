@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha lista de tarefas</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div class="background"></div>
+
+  <header id="cabecalho">
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/check-icone-1-scaled.png" alt="" width="20" height="20"
+            class="d-inline-block align-text-top">
+          <h1 id="title">Lista de Tarefas da Nathy</h1>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Atenção</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Você tem certeza que deseja apagar <b>todas</b> as tarefas cadastratas?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" id="apaga-tudo" class="btn btn-primary" data-bs-dismiss="modal"
+              style="border-color: brown;;">Apagar tudo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Instruções</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Clique duas vezes em cima da tarefa para conclui-lá.</p>
+            <hr>
+            <p>Utilize os botões abaixo para classificar de acordo com a sua prioridade.</p>
+            <hr>
+            <p>Para salvar, não se esqueça de clicar no botão "Salvar".</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="tools">
+      <div id="addTask">
+        <input placeholder="Escreva aqui uma nova tarefa" class="form-control me-2" type="text" id="texto-tarefa">
+        <button class="btn btn-outline-success" id="criar-tarefa">Adicionar tarefa</button>
+        <button class="btn btn-outline-success" id="instrucoes" data-bs-toggle="modal" data-bs-target="#exampleModal2">Instruções</button>
+      </div>
+
+      <section id="tasks">
+        <ol id="lista-tarefas">
+        </ol>
+      </section>
+
+      <div id="areabtn">
+        <button class="form-control me-2" class="btn-inf" id="salvar-tarefas">Salvar</button>
+        <button class="form-control me-2" class="btn-inf" id="mover-cima">Mover para cima</button>
+        <button class="form-control me-2" class="btn-inf" id="mover-baixo">Mover para baixo</button>
+        <button class="form-control me-2" class="btn-inf" id="remover-finalizados">Remover Finalizadas</button>
+        <button class="form-control me-2" class="btn-inf" id="remover-selecionado">Remover selecionado</button>
+        <button class="form-control me-2" class="btn-inf" id="apagaTudo" class="btn btn-primary" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Apaga Tudo</button>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </main>
+
+  <footer id="rodape">
+    <a style="text-decoration: none;" href="https://www.linkedin.com/in/mthalmeida/" target="_blank"
+      rel="noopener noreferrer">Projetado e construído pelo Matheus Almeida | Caso queira o projeto é só me avisar por
+      aqui!</a>
+  </footer>
+
+</body>
+
+</html>

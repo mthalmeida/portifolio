@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Lato;
+  src: url('https://fonts.googleapis.com/css?family=Lato');
+}
+
+.Header {
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 1px 26px rgba(68, 73, 85, 0.753);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding: 0 43px;
+  width: 100%;
+}
+
+.Header img {
+  margin-left: 6px;
+  max-width: 100%;
+  width: 50px;
+}
+
+.btn-header {
+  color: black;
+  font-family: Lato , sans-serif;
+  margin-left: 20px;
+  padding: 4px 0;
+  text-decoration: none;
+}
+
+.header-user-name {
+  margin-right: 25px;
+}

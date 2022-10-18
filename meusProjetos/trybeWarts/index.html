@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Trybewarts - Formulário de avaliação</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</head>
+<link rel="shortcut icon" href="images/trybewarts-colored.svg" />
+
+<body>
+
+  <header class="header">
+
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logomarca principal">
+
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+
+    <form action="" class="trybewarts-login">
+      <input class="form-control" type="email" name="email" id="email" placeholder="Email">
+      <input class="form-control" type="password" name="password" id="senha" placeholder="Senha">
+      <button class="btn btn-success" type="submit" id="btn-entrar">Entrar</button>
+    </form>
+
+  </header>
+
+
+  <main>
+    <form action="" id="evaluation-form">
+
+      <div class="container">
+        <input id="input-name" type="text" style="margin-right: 5px; width: 60%;" placeholder="Nome">
+        <input id="input-lastname" type="text" style=" width: 60%;" placeholder="Sobrenome">
+      </div>
+
+      <div class="container">
+        <input id="input-email" type="text" style="width: 90%;" placeholder="Email">
+        <label for="" id="house">
+          <select id="house">
+            <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </label>
+      </div>
+      <hr>
+
+      <section id="section12e13">
+        <hr>
+        <div class="familyColumn">
+          <label for="family" id="label-family">Qual sua família?</label>
+          <label>
+            <input type="radio" name="family" value="Frontend"> Frontend
+          </label>
+          <label>
+            <input type="radio" name="family" value="Backend"> Backend
+          </label>
+          <label>
+            <input type="radio" name="family" value="FullStack"> FullStack
+          </label>
+        </div>
+
+        <div class="familyColumn">
+          <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <div class="familyColumn">
+            <label>
+              <input type="checkbox" class="subject" value="HoFs"> HoFs
+            </label>
+            <label>
+              <input type="checkbox" class="subject" value="Jest"> Jest
+            </label>
+            <label>
+              <input type="checkbox" class="subject" value="Promises"> Promises
+            </label>
+            <label>
+              <input type="checkbox" class="subject" value="React"> React
+            </label>
+            <label>
+              <input type="checkbox" class="subject" value="SQL"> SQL
+            </label>
+            <label>
+              <input type="checkbox" class="subject" value="Python"> Python
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section id="section14e15">
+        <hr>
+        <div class="note">
+          <label id="label-rate">Como você avalia a Trybewarts?</label>
+          <label><input type="radio" name="rate" value="1"> 1</label>
+          <label><input type="radio" name="rate" value="2"> 2</label>
+          <label><input type="radio" name="rate" value="3"> 3</label>
+          <label><input type="radio" name="rate" value="4"> 4</label>
+          <label><input type="radio" name="rate" value="5"> 5</label>
+          <label><input type="radio" name="rate" value="6"> 6</label>
+          <label><input type="radio" name="rate" value="7"> 7</label>
+          <label><input type="radio" name="rate" value="8"> 8</label>
+          <label><input type="radio" name="rate" value="9"> 9</label>
+          <label><input type="radio" name="rate" value="10"> 10</label>
+        </div>
+
+        <hr>
+
+        <label class="textarea"></label>
+        <textarea class="comment" maxlength="500" placeholder="Deixe seu comentário"></textarea>
+      </section>
+
+      <section>
+        <label id="label-infos">Você concorda com o uso das informações acima?</label>
+        <input type="checkbox" id="agreement">
+      </section>
+
+      <button disabled style=" border-color: rgb(24, 95, 82); background-color:rgb(24, 95, 82);" type="button"
+        id="submit-btn" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Enviar avaliação
+      </button>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" style="color: black;" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Avaliação enviada!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Sua avaliação foi enviada ao Conselho de Governadores, agradecemos pelo feedback!
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </form>
+
+    <div id="imagem"><img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logomarca da escola">
+    </div>
+
+  </main>
+
+  <footer class="rodape">Projeto Trybewarts criado por Matheus Almeida e Lucas Moura  | Dados de teste: harrypotter@trybewarts.com > 123456 </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>

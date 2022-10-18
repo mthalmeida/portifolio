@@ -1,0 +1,92 @@
+body {
+  background-color: #082767;
+}
+
+@font-face {
+  font-family: 'Brightness';
+  src: url('Brightness.ttf') format('truetype');
+}
+
+#navbar {
+    text-align: center;
+    display: inline-block;
+    font-family: 'Brightness', Arial, sans-serif;
+    height: 85px;
+    padding: 5px;
+}
+
+#form1 {
+  margin-top: 60px;
+  padding: 9px;
+  margin-left: 150px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.267);
+  max-width: 280px;
+}
+
+#form2 {
+  padding: 10px;
+  background-color: rgb(45, 109, 79);
+  border-radius: 8px;
+  max-width: 280px;
+  display: flex;
+	flex-direction: column;
+}
+
+.input {
+  border-radius: 5px;
+}
+
+.input-btn {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.input-rare {
+  width: 227px;
+  border-radius: 5px;
+}
+
+.input-supertrunfo {
+  width: 80px;
+}
+
+h6 {
+  color: white;
+  margin-bottom: -100px;
+}
+label {
+  margin-top: 12px;
+}
+
+#card1 {
+  margin-top: 60px;
+  padding: 9px;
+  margin-left: 150px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.267);
+  max-width: 280px;
+}
+
+#card2, img {
+  padding: 10px;
+  background-color: rgb(45, 109, 79);
+  border-radius: 8px;
+  max-width: 280px;
+  display: flex;
+	flex-direction: column;
+}
+
+p {
+  color: white;
+}
+
+#card2 img {
+  border-radius: 8px;
+  max-width: 100%;
+  display: flex;
+	flex-direction: column;
+}

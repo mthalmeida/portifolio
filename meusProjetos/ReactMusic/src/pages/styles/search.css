@@ -1,0 +1,127 @@
+body {
+  background: linear-gradient(#003be5 12.08%, #00d5e2) center center no-repeat fixed;
+  height: 630px;
+  width: 1265px;
+}
+
+.search {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 26px rgba(68, 73, 85, 0.2);
+  height: 60px;
+  left: 392px;
+  position: absolute;
+  top: 85px;
+  width: 543px;
+}
+
+.input-search {
+  border: 1px solid #00d5e2;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 40px;
+  left: 15px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 400px;
+}
+
+.button-search {
+  background: #00d5e2;
+  border-color: #00d5e2;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  left: 430px;
+  position: absolute;
+  top: 10px;
+  width: 100px;
+}
+
+.txtSearch {
+  color: white;
+}
+
+.cardResult1 {
+  margin-left: 19px;
+  margin-top: 85px;
+  min-height: 720px;
+  padding-left: 15px;
+  padding-top: 20px;
+  width: 1300px;
+}
+
+.resulTitle {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  height: 24.89px;
+  text-align: center;
+  top: 297px;
+  width: 97%;
+}
+
+.cardResult2 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.459);
+  display: inline-block;
+  height: auto;
+  margin: 15px;
+  margin-left: 21px;
+  padding: 10px;
+  width: 198px;
+}
+
+.cardImg {
+  border-radius: 10px;
+  height: 198px;
+  width: 198px;
+}
+
+.collection {
+  color: #3d495c;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  height: 18px;
+  line-height: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.artist {
+  color: #3d495c;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 11px;
+  line-height: 1px;
+  text-align: center;
+}
+
+.information {
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.information2 {
+  background-color: #00676d;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  text-align: center;
+  width: 218px;
+}
+
+.fa {
+  color: white;
+  margin-top: 200px;
+  text-align: center;
+}
