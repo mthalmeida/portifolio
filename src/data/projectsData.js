@@ -39,13 +39,13 @@ const projects = [
   {
     name: 'API do Mercado Livre com TDD',
     description: 'Elaboração de um E-commerce utilizando a API do Mercado Livre com a utilização de testes TDD (Test Driven Development).',
-    url: ''
+    url: 'https://mthalmeida.github.io/ShoppingCart/'
   },
 
   {
     name: 'Solar System',
     description: 'Utilizando uma API local, foi desenvolvido meu primeiro projeto em REACT que contem informações de nossos planetas e missões já realizadas até o momento pela NASA.',
-    url: ''
+    url: 'https://github.com/mthalmeida/solarSystem'
   },
 
   {
@@ -57,7 +57,7 @@ const projects = [
   {
     name: 'React Music',
     description: 'Feito uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas utilizando a API do Itunes.',
-    url: ''
+    url: 'https://mthalmeida.github.io/ReactMusic'
   },
 
   {
