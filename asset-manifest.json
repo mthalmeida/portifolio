@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b794294.css",
-    "main.js": "/static/js/main.89e15650.js",
-    "static/js/787.be55e6d0.chunk.js": "/static/js/787.be55e6d0.chunk.js",
-    "static/media/background.jpg": "/static/media/background.ddaf0faa8c4e7a37537a.jpg",
-    "static/media/Font Brush - Brush Font.ttf": "/static/media/Font Brush - Brush Font.8b6d3ec301667a880b8a.ttf",
-    "index.html": "/index.html",
-    "main.4b794294.css.map": "/static/css/main.4b794294.css.map",
-    "main.89e15650.js.map": "/static/js/main.89e15650.js.map",
-    "787.be55e6d0.chunk.js.map": "/static/js/787.be55e6d0.chunk.js.map"
+    "main.css": "/portifolioPage/static/css/main.6cc80996.css",
+    "main.js": "/portifolioPage/static/js/main.727cfc92.js",
+    "static/js/787.be55e6d0.chunk.js": "/portifolioPage/static/js/787.be55e6d0.chunk.js",
+    "static/media/background.jpg": "/portifolioPage/static/media/background.ddaf0faa8c4e7a37537a.jpg",
+    "static/media/Font Brush - Brush Font.ttf": "/portifolioPage/static/media/Font Brush - Brush Font.8b6d3ec301667a880b8a.ttf",
+    "index.html": "/portifolioPage/index.html",
+    "main.6cc80996.css.map": "/portifolioPage/static/css/main.6cc80996.css.map",
+    "main.727cfc92.js.map": "/portifolioPage/static/js/main.727cfc92.js.map",
+    "787.be55e6d0.chunk.js.map": "/portifolioPage/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b794294.css",
-    "static/js/main.89e15650.js"
+    "static/css/main.6cc80996.css",
+    "static/js/main.727cfc92.js"
   ]
 }
