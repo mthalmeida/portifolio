@@ -57,7 +57,7 @@ const projects = [
   {
     name: 'React Music',
     description: 'Feito uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas utilizando a API do Itunes.',
-    url: 'https://mthalmeida.github.io/ReactMusic'
+    url: 'https://github.com/mthalmeida/reactMusic'
   },
 
   {
