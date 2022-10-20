@@ -6,6 +6,7 @@ export default class Projects extends React.Component {
   render() {
     return (
       <div className='Project'>
+        <h3 className='titleProject'>Meus projetos</h3>
         { Project_Data.map((projectinfo) => {
           const { name, description, url } = projectinfo;
           return (

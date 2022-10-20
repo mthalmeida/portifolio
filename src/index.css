@@ -23,15 +23,12 @@ body {
   background: white;
   height: 100%;
 }
-.L-tewelve {
-  background-color: white;
-}
+
 .card-List {
   position: relative;
   background-color: #ffffff;
   padding-top: 100px;
   margin-bottom: -1320px;
-  height: 1100px;
   width: 100%;
 }
 img {

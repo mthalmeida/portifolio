@@ -1,0 +1,8 @@
+****************************************************************
+Fontes e inspirações:
+
+Project button: https://codepen.io/JavaScriptJunkie/
+About card: https://uiverse.io/profile/Tiagoadag
+Parallax effect: https://codepen.io/amirsaleem
+
+****************************************************************

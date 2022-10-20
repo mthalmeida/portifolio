@@ -60,8 +60,8 @@ export default class App extends React.Component {
     return (
 
         <body>
-          <div class="L-tewelve">
-            <div class="row">
+          <div>
+            <div>
                 <Header />
                 <div id="Início"><CodeIs /></div>
               <div class="wrapper"></div>
@@ -77,11 +77,7 @@ export default class App extends React.Component {
           </div>
 
           <div id="Projetos" className="card-List">
-            <div>
-              <div>
-                <div><Projects /></div>
-              </div>
-            </div>
+              <div><Projects /></div>
           </div>
 
           <div id="Metricas" class="githubcardProject">
