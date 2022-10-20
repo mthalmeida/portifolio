@@ -17,18 +17,22 @@
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: sans-serif;
   color: #1e1e1e;
   background: white;
   height: 100%;
 }
-
+.L-tewelve {
+  background-color: white;
+}
 .card-List {
   position: relative;
   background-color: #ffffff;
   padding-top: 100px;
   margin-bottom: -1320px;
+  height: 1100px;
   width: 100%;
 }
 img {
@@ -48,7 +52,6 @@ img {
   background-color: white;
   z-index: 10;
   background-color: rgba(255,255,255,0.0);
-  -webkit-transition: all 0.4s linear 0s;
   -webkit-perspective: 1000px;
   perspective: 1000px;
 }
@@ -63,7 +66,7 @@ img {
 .header .logo-container h1 {
   text-align: center;
   color: white;
-  -webkit-transition: all 0.4s linear 0s;
+
 }
 .header ul {
   margin: 0 50px 0 0;
@@ -82,7 +85,6 @@ img {
   padding: 30px 15px;
   color: white;
   border-top: 5px solid transparent;
-  -webkit-transition: padding 0.4s linear 0s;
   font-size: 16px;
 }
 .header ul li a:hover {
@@ -275,9 +277,6 @@ footer p {
   }
   .toggle-btn {
     display: block;
-  }
-  .banner-wrapper-fixed {
-  }
-  
+  }  
 }
 

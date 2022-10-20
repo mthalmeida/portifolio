@@ -24,12 +24,12 @@
 }
 
 .Project {
+  height: auto;
   background-color: white;
-  position: absolute;
+  position: relative;
   padding-left: 90px;
   width: 100%;
-  min-height: 1700px;
-  padding-bottom: 200px;
+  min-height: 1800px;
   text-align: center;
   text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.267)
 }

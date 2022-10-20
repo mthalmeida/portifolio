@@ -1,14 +1,14 @@
 #Metricas {
-  margin-top: 1800px;
   padding-top: 200px;
-  padding-bottom: 240px;
-  top: 1300px;
+  padding-bottom: 200px;
   width: 100%;
+  height: 740px;
   display: grid;
   align-items: center;
   position: relative;
   background-color: #07162ecc;
   background: radial-gradient(rgba(0, 0, 0, 0.404), rgb(0, 0, 0)), url('../../public/images/background.jpg') center center no-repeat fixed;
+  top: 100px;
 }
 
 .githubCard {
