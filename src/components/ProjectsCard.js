@@ -20,7 +20,7 @@ export default class ProjectsCard extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 id="btnLink"
-                class="btn-hover color"
+                class="btn-hovszer color"
               >
                 <button class="btn-hover color-7">ABRIR PROJETO</button>
               </a>

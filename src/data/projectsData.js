@@ -65,6 +65,30 @@ const projects = [
     description: '<Em desenvolvimento>',
     url: ''
   },
+  
+  {
+    name: 'Testes em React',
+    description: '<Em desenvolvimento>',
+    url: ''
+  },
+  
+  {
+    name: 'Trybe Wallet',
+    description: '<Em desenvolvimento>',
+    url: ''
+  },
+  
+  {
+    name: 'Trivia Game',
+    description: '<Em desenvolvimento>',
+    url: ''
+  },
+  
+  {
+    name: 'App de Receitas',
+    description: '<Em desenvolvimento>',
+    url: ''
+  },
 ];
 
 export default projects;

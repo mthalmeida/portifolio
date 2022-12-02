@@ -19,24 +19,35 @@
   color: rgb(36, 36, 36);
   border-radius: 19px;
   background: #ffffff;
-  box-shadow:  7px 7px 23px #e3e3e3,
-              -7px -7px 23px #ffffff;
+  box-shadow: 7px 7px 23px #e3e3e3,
+    -7px -7px 23px #ffffff;
+}
+
+@media screen and (min-width: 720px) {
+  .card-List {
+    background-color: #ffffff;
+    height: 2300px;
+  }
+}
+
+.card-List {
+  background-color: #ffffff;
+  height: 6800px;
 }
 
 .Project {
-  height: auto;
-  background-color: white;
   position: relative;
-  padding-left: 90px;
-  width: 100%;
-  min-height: 1800px;
+  left: 7%;
+  width: 90%;
   text-align: center;
   text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.267)
 }
 
 .titleProject {
+  width: 93%;
+  margin-top: -100px;
+  padding-top: 80px;
   margin-bottom: -70px;
-  margin-left: -100px;
   font-size: 45px;
   font-weight: 500;
   rotate: -4deg;
@@ -50,7 +61,7 @@
   margin-left: -70px;
   text-align: justify;
   min-height: 168px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-title {
@@ -82,7 +93,7 @@
   cursor: pointer;
   margin: 20px;
   height: 40px;
-  text-align:center;
+  text-align: center;
   border: none;
   background-size: 300% 100%;
   border-radius: 50px;
