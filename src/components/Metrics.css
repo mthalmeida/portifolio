@@ -1,24 +1,18 @@
 #Metricas {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  width: 100%;
-  height: 740px;
+  height: 500px;
   display: grid;
   align-items: center;
   position: relative;
   background-color: #07162ecc;
-  background: radial-gradient(rgba(0, 0, 0, 0.404), rgb(0, 0, 0)), url('../../public/images/background.jpg') center center no-repeat fixed;
+  background: radial-gradient(rgba(0, 19, 46, 0.404), rgb(0, 0, 0)), url('../../public/images/background.jpg') center center no-repeat fixed;
   top: 100px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 6rem;
+  width: auto;
 }
 
 .githubCard {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
-.metric2 {
-  margin-left: 30px;
+  padding-left: 200px;
 }
