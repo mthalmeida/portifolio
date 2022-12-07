@@ -3,6 +3,6 @@ Fontes e inspirações:
 
 Header: https://codepen.io/bradtraversy/pen/vMGBjQ
 Project button: https://codepen.io/mahmudulhrabby/pen/GGqdvr
-About card: https://uiverse.io/profile/Tiagoadag
+About card: https://codepen.io/abrahamcalsin/pen/mdWzpqZ
 
 ****************************************************************

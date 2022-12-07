@@ -63,8 +63,8 @@ body {
 /* MENU STYLES */
 .menu-wrap {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 5%;
+  left: 78rem;
   z-index: 1;
 }
 

@@ -1,0 +1,140 @@
+$color-bg: #003238;
+$color: #183153;
+$color-text: #8a949f;
+
+*, *::before, *:after{
+  box-sizing: border-box;
+}
+.about{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  background: $color-bg;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.cardContainer{
+  width: 100%;
+  max-width: 750px;
+  padding: 25px 25px;
+  background: #fff;
+  // box-shadow: rgba(211, 214, 227, 0.6) 0px 12px 25px;
+  box-shadow: rgb(0, 0, 0) 0px 12px 20px;
+  border-radius: 15px;
+  
+  .datesProfile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 8px;
+    
+    .imgProfile{
+      margin-bottom: 15px;
+      position: relative;
+      
+      img{
+        width: 85px;
+        max-width: 85px;
+        height: 85px;
+        max-height: 85px;
+        display: block;
+        border-width: 2px;
+        border-radius: 999px;
+        width: auto;
+        height: 100%;
+      }
+      .objetFit{
+        object-fit: cover;
+      }
+      
+      .verificUser{
+        position: absolute;
+        right: -2px;
+        bottom: 5px;
+        display: flex;
+        padding: 2px;
+        font-size: 1.7rem;
+        background: #1C9CEA;
+        color: #fff;
+        border-radius: 50%;
+      }
+    }
+    
+    .datesUser{
+      text-align: center;
+      
+      h1{
+        margin: 0;
+        font-size: 1.3rem;
+        color: #7e8791;
+      }
+      
+      p{
+        margin: 0;
+        color: $color-text;
+      }
+    }
+    
+    .socialMedia{
+      margin-top: 10px;
+      font-size: 1.1rem;
+      
+      a{
+        color: $color-text;
+        text-decoration: none;
+        transition: all .3s ease;
+        
+        &:hover{
+          color: #656e78;
+        }
+      }
+      a:nth-child(2){
+        margin: 0 5px;
+      }
+    }
+  }
+  
+  @media (min-width: 598px){
+    &{
+      width: 80%;
+    }
+    .datesProfile{
+        flex-direction: row;
+      
+        .datesUser{
+          margin-left: 15px;
+          text-align: left !important;
+        }
+      
+        #socialMedia{
+          position: absolute;
+          right: 15px;
+          margin-top: 0;
+          font-size: 1.2rem;
+        }
+      }
+  }
+  
+  @media (min-width: 768px){
+    &{
+      width: 65%;
+    }
+  }
+  
+  .moreDetailsUser{
+    padding-top: 15px;
+    
+    p{
+      margin: 0;
+      padding-top: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-weight: normal;
+      color: $color-text;
+      text-align: justify;
+    }
+  }
+}
