@@ -6,10 +6,11 @@ $color-text: #8a949f;
   box-sizing: border-box;
 }
 .about{
+  padding: 40px 20px 50px 20px;
   display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
   background: $color-bg;
   font-family: 'Josefin Sans', sans-serif;
 }
