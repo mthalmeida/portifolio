@@ -4,7 +4,7 @@ import "./Header.css";
 export default class Header extends React.Component {
   render() {
     return (
-      <div>
+      <div className="header">
         <div className="menu-wrap">
           <input type="checkbox" className="toggler" />
           <div className="hamburger">

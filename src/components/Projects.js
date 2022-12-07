@@ -5,7 +5,7 @@ import "./Projects.css";
 export default class Projects extends React.Component {
   render() {
     return (
-      <div>
+      <div className="projects">
         <h1 className="title-card">Veja alguns dos meus projetos:</h1>
         <div className="main">
           <ul className="cards">

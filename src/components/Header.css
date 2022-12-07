@@ -16,7 +16,7 @@
   src: url('../../public/Font\ Brush\ -\ Brush\ Font.ttf') format('truetype');
 }
 
-body {
+.header {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
 }
