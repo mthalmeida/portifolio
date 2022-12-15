@@ -1,7 +1,7 @@
 {
+  "homepage": "http://mthalmeida.github.io/portifolio", 
   "name": "portifolio",
   "version": "0.1.0",
-  "homepage": "portifolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,6 +11,7 @@
     "@types/node": "^16.11.66",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "gh-pages": "^4.0.0",
     "jquery": "^3.6.1",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
