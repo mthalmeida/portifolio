@@ -31,8 +31,8 @@ export default class Header extends React.Component {
 
         <header className="showcase">
           <div className="container showcase-inner">
-            <h1>Matheus Almeida</h1>
-            <h1>Desenvolvimento Full Stack</h1>
+            <h1 className="name">Matheus Almeida</h1>
+            <h1 className="subTitle">Desenvolvimento Full Stack</h1>
           </div>
         </header>
       </div>

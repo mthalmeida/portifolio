@@ -21,6 +21,14 @@
   line-height: 1.4;
 }
 
+.name {
+  font-size: 4em;
+}
+
+.subTitle {
+  font-size: 2em;
+}
+
 .container {
   max-width: 960px;
   margin: auto;
@@ -54,10 +62,6 @@
   justify-content: center;
   text-align: center;
   height: 100%;
-}
-
-.showcase h1 {
-  font-size: 3rem;
 }
 
 /* MENU STYLES */
