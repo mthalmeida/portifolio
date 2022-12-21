@@ -9,20 +9,20 @@ export default class About extends React.Component {
         {aboutData.map((aboutinfo) => {
           const { image, title, subTitle, text } = aboutinfo;
           return (
-            <div class="cardContainer">
-              <div class="datesProfile">
-                <div class="imgProfile">
-                  <img src={image} class="objetFit" alt="" />
+            <div className="cardContainer" key={title}>
+              <div className="datesProfile">
+                <div className="imgProfile">
+                  <img src={image} className="objetFit" alt="" />
                   <div>
                     <span
-                      class="iconify verificUser"
+                      className="iconify verificUser"
                       data-icon="heroicons-solid:badge-check"
                       data-inline="false"
                     ></span>
                   </div>
                 </div>
 
-                <div class="datesUser">
+                <div className="datesUser">
                   <h1>{title}</h1>
                   <p>{subTitle}</p>
                 </div>
@@ -82,7 +82,7 @@ export default class About extends React.Component {
                   </ul>
                 </div>
               </div>
-              <div class="moreDetailsUser">
+              <div className="moreDetailsUser">
                 <p>{text}</p>
               </div>
             </div>

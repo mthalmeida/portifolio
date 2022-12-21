@@ -20,7 +20,6 @@ $color-text: #8a949f;
   max-width: 750px;
   padding: 25px 25px;
   background: #fff;
-  // box-shadow: rgba(211, 214, 227, 0.6) 0px 12px 25px;
   box-shadow: rgb(0, 0, 0) 0px 12px 20px;
   border-radius: 15px;
   
@@ -98,7 +97,7 @@ $color-text: #8a949f;
     }
   }
   
-  @media (min-width: 598px){
+ @media (min-width: 900px){
     &{
       width: 80%;
     }
@@ -118,7 +117,7 @@ $color-text: #8a949f;
         }
       }
   }
-  
+
   @media (min-width: 768px){
     &{
       width: 65%;

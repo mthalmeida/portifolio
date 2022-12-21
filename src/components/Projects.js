@@ -10,6 +10,8 @@ export default class Projects extends React.Component {
           <ul className="cards">
             {projectData.map((projectInfo) => {
               const { name, description, url, page, image } = projectInfo;
+              const pageLength = page.length;
+              const urlLength = url.length;
               return (
                 <li key={name} className="cards_item">
                   <div className="card">
@@ -20,17 +22,43 @@ export default class Projects extends React.Component {
                       <h2 className="card_title">{name}</h2>
                       <p className="card_text">{description}</p>
                       <div className="btnCard">
-                        <a href={url} target="_blank" rel="noreferrer">
-                        <button className="btn card_btn">
-                          <p className="fa fa-github"> Ver arquivos</p>
-                        </button>
-                      </a>
-                      <a href={page} target="_blank" rel="noreferrer" className="btnUrl">
-                        <button className="btn card_btn">
-                          <p className="fa fa-link"> Abrir pagina</p>
-                        </button>
-                        </a>
-                        </div>
+                        <abbr title="Abrir projeto no GitHub">
+                          <a
+                            href={urlLength !== 0 ? url : null}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <button
+                              className={
+                                urlLength !== 0
+                                  ? "btn-enabled card_btn"
+                                  : "btn-disabled card_btn"
+                              }
+                            >
+                              <p className="fa fa-github"> Ver arquivos</p>
+                            </button>
+                          </a>
+                        </abbr>
+
+                        <abbr title="Ver pagina em funcionamento">
+                          <a
+                            href={pageLength !== 0 ? page : null}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btnUrl"
+                          >
+                            <button
+                              className={
+                                pageLength === 0
+                                  ? "btn-disabled card_btn"
+                                  : "btn-enabled card_btn"
+                              }
+                            >
+                              <p className="fa fa-link"> Abrir pagina</p>
+                            </button>
+                          </a>
+                        </abbr>
+                      </div>
                     </div>
                   </div>
                 </li>

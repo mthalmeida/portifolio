@@ -35,6 +35,7 @@ h1 {
 img {
   max-height: 17rem;
   width: 100%;
+  height: 13rem;
   vertical-align: middle;
 }
 
@@ -47,7 +48,7 @@ img {
   left: 20%;
 }
 
-.btn {
+.btn-enabled {
   margin-top: 20px;
   color: #ffffff;
   padding: 0.8rem;
@@ -61,7 +62,21 @@ img {
   background: transparent;
 }
 
-.btn:hover {
+.btn-disabled {
+  margin-top: 20px;
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  font-weight: 400;
+  width: 40%;
+  cursor: not-allowed;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn-enabled:hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
@@ -76,6 +91,7 @@ img {
 .cards_item {
   display: flex;
   padding: 1rem;
+  width: 100%;
 }
 
 @media (min-width: 40rem) {
@@ -106,7 +122,7 @@ img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  max-width: 100%;
+  width: 100%;
 }
 
 .card_content {

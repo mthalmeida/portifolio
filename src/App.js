@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 export default class App extends React.Component {
   render() {
     return (
-      <body>
+      <div>
         <div id="inicio"></div>
         <Header />
         <div id="sobre"></div>
@@ -15,7 +15,7 @@ export default class App extends React.Component {
         <div id="projetos"></div>
         <Projects />
         <Footer />
-      </body>
+      </div>
     );
   }
 }
