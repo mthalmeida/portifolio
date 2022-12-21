@@ -97,7 +97,7 @@ $color-text: #8a949f;
     }
   }
   
- @media (min-width: 900px){
+@media (min-width: 900px){
     &{
       width: 80%;
     }
@@ -117,8 +117,7 @@ $color-text: #8a949f;
         }
       }
   }
-
-  @media (min-width: 768px){
+@media (min-width: 768px){
     &{
       width: 65%;
     }
