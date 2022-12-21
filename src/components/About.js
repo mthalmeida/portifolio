@@ -1,13 +1,13 @@
-import React from "react";
-import aboutData from "../data/AboutData";
-import "./About.scss";
+import React from 'react'
+import aboutData from '../data/AboutData'
+import './About.scss'
 
 export default class About extends React.Component {
-  render() {
+  render () {
     return (
       <div className="about">
         {aboutData.map((aboutinfo) => {
-          const { image, title, subTitle, text } = aboutinfo;
+          const { image, title, subTitle, text } = aboutinfo
           return (
             <div className="cardContainer" key={title}>
               <div className="datesProfile">
@@ -86,9 +86,9 @@ export default class About extends React.Component {
                 <p>{text}</p>
               </div>
             </div>
-          );
+          )
         })}
       </div>
-    );
+    )
   }
 }

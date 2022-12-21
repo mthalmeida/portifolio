@@ -1,17 +1,17 @@
-import React from "react";
-import projectData from "../data/projectsData";
-import "./Projects.css";
+import React from 'react'
+import projectData from '../data/projectsData'
+import './Projects.css'
 
 export default class Projects extends React.Component {
-  render() {
+  render () {
     return (
       <div className="projects">
         <div className="main">
           <ul className="cards">
             {projectData.map((projectInfo) => {
-              const { name, description, url, page, image } = projectInfo;
-              const pageLength = page.length;
-              const urlLength = url.length;
+              const { name, description, url, page, image } = projectInfo
+              const pageLength = page.length
+              const urlLength = url.length
               return (
                 <li key={name} className="cards_item">
                   <div className="card">
@@ -31,8 +31,8 @@ export default class Projects extends React.Component {
                             <button
                               className={
                                 urlLength !== 0
-                                  ? "btn-enabled card_btn"
-                                  : "btn-disabled card_btn"
+                                  ? 'btn-enabled card_btn'
+                                  : 'btn-disabled card_btn'
                               }
                             >
                               <p className="fa fa-github"> Ver arquivos</p>
@@ -50,8 +50,8 @@ export default class Projects extends React.Component {
                             <button
                               className={
                                 pageLength === 0
-                                  ? "btn-disabled card_btn"
-                                  : "btn-enabled card_btn"
+                                  ? 'btn-disabled card_btn'
+                                  : 'btn-enabled card_btn'
                               }
                             >
                               <p className="fa fa-link"> Abrir pagina</p>
@@ -62,11 +62,11 @@ export default class Projects extends React.Component {
                     </div>
                   </div>
                 </li>
-              );
+              )
             })}
           </ul>
         </div>
       </div>
-    );
+    )
   }
 }

@@ -1,8 +1,8 @@
-import React from "react";
-import "./Header.css";
+import React from 'react'
+import './Header.css'
 
 export default class Header extends React.Component {
-  render() {
+  render () {
     return (
       <div className="header">
         <div className="menu-wrap">
@@ -36,6 +36,6 @@ export default class Header extends React.Component {
           </div>
         </header>
       </div>
-    );
+    )
   }
 }

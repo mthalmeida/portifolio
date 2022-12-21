@@ -1,11 +1,11 @@
-import React from "react";
-import Header from "./components/Header";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import Footer from "./components/Footer";
+import React from 'react'
+import Header from './components/Header'
+import Projects from './components/Projects'
+import About from './components/About'
+import Footer from './components/Footer'
 
 export default class App extends React.Component {
-  render() {
+  render () {
     return (
       <div>
         <div id="inicio"></div>
@@ -16,6 +16,6 @@ export default class App extends React.Component {
         <Projects />
         <Footer />
       </div>
-    );
+    )
   }
 }

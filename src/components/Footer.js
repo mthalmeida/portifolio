@@ -1,8 +1,8 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react'
+import './Footer.css'
 
 export default class Footer extends React.Component {
-  render() {
+  render () {
     return (
       <footer className="site-footer">
         <div className="container">
@@ -23,7 +23,7 @@ export default class Footer extends React.Component {
                     className="github"
                     href="https://github.com/mthalmeida"
                   >
-                    <i className="fa fa-github"></i>
+                    <i className="fa fa-github" />
                   </a>
                 </li>
                 <li>
@@ -33,7 +33,7 @@ export default class Footer extends React.Component {
                     className="linkedin"
                     href="https://www.linkedin.com/in/mthalmeida/"
                   >
-                    <i className="fa fa-linkedin"></i>
+                    <i className="fa fa-linkedin" />
                   </a>
                 </li>
                 <li>
@@ -43,7 +43,7 @@ export default class Footer extends React.Component {
                     className="instagram"
                     href="https://instagram.com/mthalmeida"
                   >
-                    <i className="fa fa-instagram"></i>
+                    <i className="fa fa-instagram" />
                   </a>
                 </li>
                 <li>
@@ -53,7 +53,7 @@ export default class Footer extends React.Component {
                     className="whatsapp"
                     href="https://wa.me/5537991730968?text=Vim+pelo+site+de+desenvolvimento%21"
                   >
-                    <i className="fa fa-whatsapp"></i>
+                    <i className="fa fa-whatsapp" />
                   </a>
                 </li>
                 <li>
@@ -63,7 +63,7 @@ export default class Footer extends React.Component {
                     className="facebook"
                     href="https://www.facebook.com/matheusalmeida.mobelar/"
                   >
-                    <i className="fa fa-facebook"></i>
+                    <i className="fa fa-facebook" />
                   </a>
                 </li>
               </ul>
@@ -71,6 +71,6 @@ export default class Footer extends React.Component {
           </div>
         </div>
       </footer>
-    );
+    )
   }
 }
