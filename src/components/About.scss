@@ -1,6 +1,6 @@
 $color-bg: #003238;
 $color: #183153;
-$color-text: #8a949f;
+$color-text: #5c6268;
 
 *, *::before, *:after{
   box-sizing: border-box;
@@ -13,6 +13,7 @@ $color-text: #8a949f;
 	min-height: 100vh;
   background: $color-bg;
   font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
 }
 
 .cardContainer{
@@ -30,6 +31,8 @@ $color-text: #8a949f;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 8px;
+    font-style: normal;
+
     
     .imgProfile{
       margin-bottom: 15px;
@@ -43,8 +46,11 @@ $color-text: #8a949f;
         display: block;
         border-width: 2px;
         border-radius: 999px;
+        border-style: double;
+        border-color: #ffffff;
         width: auto;
         height: 100%;
+        box-shadow:  3px 3px 3px #0052618a;
       }
       .objetFit{
         object-fit: cover;
@@ -57,7 +63,7 @@ $color-text: #8a949f;
         display: flex;
         padding: 2px;
         font-size: 1.7rem;
-        background: #1C9CEA;
+        background: #ffffff;
         color: #fff;
         border-radius: 50%;
       }
@@ -69,7 +75,9 @@ $color-text: #8a949f;
       h1{
         margin: 0;
         font-size: 1.3rem;
-        color: #7e8791;
+        color: #0c404d;
+        font-style: normal;
+
       }
       
       p{

@@ -51,7 +51,7 @@ export default class Footer extends React.Component {
                     target="_blank"
                     rel="noreferrer"
                     className="whatsapp"
-                    href="https://wa.me/5537991730968?text=Vim+pelo+site+de+desenvolvimento%21"
+                    href="https://wa.me/5531994405788?text=Vim+pelo+site+de+desenvolvimento%21"
                   >
                     <i className="fa fa-whatsapp" />
                   </a>

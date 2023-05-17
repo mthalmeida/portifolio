@@ -1,27 +1,8 @@
 const projects = [
   {
-    name: 'Playground Functions',
-    description:
-      'Segundo projeto do curso Trybe que buscou desenvolver minhas habilidades em Javascript com testes e raciocínio lógico focados em linguagem de programação.',
-    url: 'https://github.com/mthalmeida/playgroundFunctions',
-    page: '',
-    image:
-      'https://c4.wallpaperflare.com/wallpaper/562/372/1012/programmers-javascript-minimalism-wallpaper-preview.jpg'
-  },
-
-  {
-    name: 'Art Pixels',
-    description:
-      'Terceiro projeto do curso Trybe com o objetivo de testar e aprimorar conhecimentos em Javascript, HTML e CSS com criação dinâmica e eventos de página.',
-    url: 'https://github.com/mthalmeida/pixelsArt',
-    page: 'https://mthalmeida.github.io/pixelsArt/',
-    image: 'https://images8.alphacoders.com/370/370620.jpg'
-  },
-
-  {
     name: 'Trybewarts',
     description:
-      'Desenvolvimento de uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes podem enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra Harry Potter, de J. K. Rowling.',
+      'Página personalizada inspirada na obra de Harry Potter, de J. K. Rowling. Desenvolvida com HTML, Bootstrap e CSS, esta página permite que os estudantes enviem seus feedbacks sobre a escola. Com um design e elementos interativos, essa pagina foi elaborada como objetivo de exercitar as habilidades de forms e implementação do Bootstrap.',
     url: 'https://github.com/mthalmeida/trybeWarts',
     page: 'https://mthalmeida.github.io/trybeWarts/',
     image:
@@ -31,7 +12,7 @@ const projects = [
   {
     name: 'Lista de tarefas',
     description:
-      'Desenvolvido um site para organizar uma listagem de tarefas utilizando apenas linguagem JS e CSS com auxilo de Framework.',
+      'Sistema desenvolvido em HTML, CSS e JavaScript, para adicionar, organizar e priorizar tarefas. Com esse aplicativo, você pode gerenciar suas tarefas de forma fácil e intuitiva. Adicione novas tarefas, defina prioridades, marque as concluídas e mantenha-se produtivo .Com uma interface amigável e responsiva, este sistema simplifica a gestão do dia a dia. ',
     url: 'https://github.com/mthalmeida/TodoList',
     page: 'https://mthalmeida.github.io/TodoList/',
     image:
@@ -39,19 +20,9 @@ const projects = [
   },
 
   {
-    name: 'Zoo Functions',
+    name: 'Monitor para criptomoedas',
     description:
-      'Desenvolvimento de funções que buscam sobre informações de um zoológico como: espécie, local de origem, dados sobre as pessoas que colaboram com a manutenção e cuidado do zoológico.',
-    url: 'https://github.com/mthalmeida/zooFunction',
-    page: '',
-    image:
-      'https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
-  },
-
-  {
-    name: 'JS Async',
-    description:
-      'Uso de API que retorna um TOP 10 das principais moedas do mercado, utilizando CSS, HTML e API externa com uso de testes unitarios de verificação.',
+      'Monitor desenvolvido com HTML, CSS e JavaScript, que acompanha em tempo real as top 15 criptomoedas do mercado. Utilizando uma integração de uma API externa e com o design elaborado para que seja usado em monitores externos, atualiza automaticamente todos os valores a cada 5 minutos, garantindo informações atualizadas.',
     url: 'https://github.com/mthalmeida/TestAsync',
     page: 'https://mthalmeida.github.io/JSAsync/',
     image:
@@ -59,28 +30,9 @@ const projects = [
   },
 
   {
-    name: 'API do Mercado Livre com TDD',
+    name: 'Testes Assíncronos',
     description:
-      'Elaboração de um E-commerce utilizando a API do Mercado Livre com a utilização de testes TDD (Test Driven Development).',
-    url: 'https://github.com/mthalmeida/ShoppingCart',
-    page: 'https://mthalmeida.github.io/ShoppingCart/',
-    image: 'https://miro.medium.com/max/1200/1*Bpa35qx2jiQTWGN7s3UlWA.png'
-  },
-
-  {
-    name: 'Solar System',
-    description:
-      'Utilizando uma API local, foi desenvolvido meu primeiro projeto em REACT que contem informações de nossos planetas e missões já realizadas até o momento pela NASA.',
-    url: 'https://github.com/mthalmeida/solarSystem',
-    page: '',
-    image:
-      'https://img.olhardigital.com.br/wp-content/uploads/2021/09/shutterstock_311871896.jpg'
-  },
-
-  {
-    name: 'Async Test',
-    description:
-      'Implementado várias funções na resolução dos requisitos propostos com utilização de testes unitários para garantir que as implementações das funções estão corretas, de acordo com o que está sendo solicitado.',
+      'Conjunto de funções personalizadas que atendem às especificações definidas no briefing, utilizando testes unitários abrangentes. Esses testes permitem verificar se as funções estão funcionando corretamente, de acordo com as solicitações e requisitos estabelecidos. Dessa forma, garantindo a total confiança na funcionalidade e desempenho das soluções.',
     url: 'https://github.com/mthalmeida/asyncTest',
     page: '',
     image:
@@ -90,7 +42,7 @@ const projects = [
   {
     name: 'React Music',
     description:
-      'Feito uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas utilizando a API do Itunes.',
+      'Aplicativo web que reproduz músicas de diversas bandas e artistas, utilizando a API do Itunes diretamente do navegador. O aplicativo permite que se pesquise por faixas e as reproduza por um determinado período com uma boa qualidade sonora. Este projeto foi realizado com o objetivo de utilizar APIs externas e criar aplicações web envolventes, funcionais e testadas.',
     url: 'https://github.com/mthalmeida/reactMusic',
     page: 'https://mthalmeida.github.io/reactMusic/',
     image:
@@ -98,29 +50,19 @@ const projects = [
   },
 
   {
-    name: 'Online Store',
-    description:
-      'Projeto desenvolvido em grupo com o objetivo de consumir a API do Mercado Livre, filtrando, categorizando e redirecionando itens a pagina de checkout.',
-    url: 'https://github.com/mthalmeida/onlineStoreApi',
-    page: 'https://mthalmeida.github.io/onlineStoreApi/',
-    image:
-      'https://www.revendedor.com.br/wp-content/uploads/2021/03/como-vender-bem-no-mercado-livre.jpg'
-  },
-
-  {
     name: 'Testes em React',
     description:
-      'Desenvolvido testes em React-Testing-Library automatizando e simulando eventos, fluxos lógicos assíncronos com mochs de APIs.',
+      'Testes utilizando React-Testing-Library para automatizar e simular eventos em um projeto React. Com esse conjunto de testes, é possível validar fluxos lógicos assíncronos, incluindo a interação com APIs, usando mocks. Esses testes garantem a qualidade e confiabilidade do código, permitindo identificar e corrigir problemas de forma rápida e eficiente.',
     url: 'https://github.com/mthalmeida/testes-em-react',
     page: '',
     image:
-      'https://diogorodrigues.dev/assets/img/blog/automating-ui-tests-with-jest-and-react-testing-library.jpg'
+      'https://hermes.digitalinnovation.one/articles/cover/7c856878-99cc-488b-9409-0cbc92cf7b66.png'
   },
 
   {
-    name: 'Trybe Wallet',
+    name: 'Wallet Manager',
     description:
-      'Carteira de controle de gastos com conversor de moedas automatizado.',
+      'Elaborado um aplicativo web para o gerenciamento de gastos, criado com HTML, CSS e React. A funcionalidade especial do aplicativo é a conversão automática de gastos de outras moedas para o Real, utilizando cotações reais de mercado. Dessa forma, podendo monitorar e controlar os gastos de forma eficiente, com total transparência e precisão.',
     url: 'https://github.com/mthalmeida/trybeWallet/',
     page: 'https://mthalmeida.github.io/trybeWallet/',
     image:
@@ -128,20 +70,23 @@ const projects = [
   },
 
   {
-    name: 'Trivia Game',
-    description: '<Em desenvolvimento>',
+    name: 'Grupo Mobelar Móveis',
+    description:
+      'Site completo e personalizado criado com a combinação de HTML, CSS e WordPress, aprimorado com plugins para melhorar e metrificar seu uso. Além disso, foi utilizado banco de dados MySQL para gerenciar informações de forma eficiente, com hospedagem confiável e um registro de domínio exclusivo.',
     url: '',
-    page: '',
-    image: 'https://wallpapercave.com/wp/wp9440268.jpg'
+    page: 'https://www.grupomobelar.com.br/',
+    image:
+      'https://legiit-service.s3.amazonaws.com/ec51a77288a61f34f488c8c7ade49249/075c761350f94fa7897baa5789b9972d.jpg'
   },
 
   {
-    name: 'App de Receitas',
-    description: '<Em desenvolvimento>',
+    name: 'Sistema de Gerenciamento',
+    description:
+      'Implementado um sistema de gestão completo, utilizando HTML, CSS, PHP e MySQL, garantindo a disponibilidade e segurança dos dados e permitindo ao cliente acopanhar o andamento do projeto de forma virtual. Disponibilizado também uma versão mobile para Android utilizando Kodular e Firebase, permitindo acesso por meio de dispositivos móveis.',
     url: '',
-    page: '',
+    page: 'https://www.grupomobelar.com.br/sistema/index.php/login',
     image:
-      'https://www.sketchappsources.com/resources/source-image/flavr-recipes-app-ios-ui-kit.jpg'
+      'https://nuvemgestor.com.br/software-gestao-empresas/sistema-gerenciamento/imagem/software-para-petshop-software-salao-software-informatica-software-loja-celular-sistema-material-construcao-deposito-empresas-mei.jpg'
   }
 ]
 
