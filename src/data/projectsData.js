@@ -87,6 +87,16 @@ const projects = [
     page: 'https://www.grupomobelar.com.br/sistema/index.php/login',
     image:
       'https://nuvemgestor.com.br/software-gestao-empresas/sistema-gerenciamento/imagem/software-para-petshop-software-salao-software-informatica-software-loja-celular-sistema-material-construcao-deposito-empresas-mei.jpg'
+  },
+
+  {
+    name: 'Task Manager v1.0.1',
+    description:
+      'Sistema de gerenciamento de tarefas desenvolvido em PHP, CSS, HTML e MySql. Uma solução prática e intuitiva para organizar a vida pessoal e profissional, mantendo os contatos atualizados e gerenciando as tarefas diárias com facilidade.',
+    url: 'https://github.com/mthalmeida/taskManager',
+    page: '',
+    image:
+      'https://www.chanty.com/blog/wp-content/uploads/2020/10/Task-manager-apps-scaled.jpg'
   }
 ]
 
