@@ -1,17 +1,35 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.f0b290e5.css",
-    "main.js": "/portifolio/static/js/main.51761c13.js",
+    "main.css": "/portifolio/static/css/main.474963aa.css",
+    "main.js": "/portifolio/static/js/main.18fd06ce.js",
     "static/js/787.be55e6d0.chunk.js": "/portifolio/static/js/787.be55e6d0.chunk.js",
-    "static/media/background.jpg": "/portifolio/static/media/background.ddaf0faa8c4e7a37537a.jpg",
-    "static/media/Font Brush - Brush Font.ttf": "/portifolio/static/media/Font Brush - Brush Font.8b6d3ec301667a880b8a.ttf",
+    "static/media/taskManager.png": "/portifolio/static/media/taskManager.f84e54266f31aa04efc8.png",
+    "static/media/todolist.png": "/portifolio/static/media/todolist.ddc5e5f5f96db56d4f9d.png",
+    "static/media/wordpress.png": "/portifolio/static/media/wordpress.2eb59ddde6327eedf0bb.png",
+    "static/media/monitorCripto.png": "/portifolio/static/media/monitorCripto.218250a43963970c6ee5.png",
+    "static/media/bootstrap.png": "/portifolio/static/media/bootstrap.4891667e3161c7578b9b.png",
+    "static/media/npm.png": "/portifolio/static/media/npm.12ed35e427453a83a5df.png",
+    "static/media/trybewarts.png": "/portifolio/static/media/trybewarts.3aada9747edf424ecaf6.png",
+    "static/media/music.png": "/portifolio/static/media/music.a9203ef43fe4c21c2578.png",
+    "static/media/gerenciamento.png": "/portifolio/static/media/gerenciamento.ba31893a04a45cf8b619.png",
+    "static/media/html.png": "/portifolio/static/media/html.485314cbfd52c80ca288.png",
+    "static/media/foto.jpg": "/portifolio/static/media/foto.0cffb7b1da4f3bc6aa1b.jpg",
+    "static/media/react.png": "/portifolio/static/media/react.2ea8bb0ebda711694eb1.png",
+    "static/media/typescript.png": "/portifolio/static/media/typescript.dd82e1dab57c1cfb7738.png",
+    "static/media/node.png": "/portifolio/static/media/node.66a2a36f8ff30513b8e3.png",
+    "static/media/jest.png": "/portifolio/static/media/jest.864e57e13a4198efb5d1.png",
+    "static/media/walletManager.png": "/portifolio/static/media/walletManager.96bf7d012be87d9d1a0b.png",
+    "static/media/php.png": "/portifolio/static/media/php.f87267cc9f748aae8e8f.png",
+    "static/media/css.png": "/portifolio/static/media/css.0f5352c8f54f3e89be8b.png",
+    "static/media/javascript.png": "/portifolio/static/media/javascript.2f77082f606ffae30d50.png",
+    "static/media/csharp.png": "/portifolio/static/media/csharp.ef1d2384898b4ed83706.png",
     "index.html": "/portifolio/index.html",
-    "main.f0b290e5.css.map": "/portifolio/static/css/main.f0b290e5.css.map",
-    "main.51761c13.js.map": "/portifolio/static/js/main.51761c13.js.map",
+    "main.474963aa.css.map": "/portifolio/static/css/main.474963aa.css.map",
+    "main.18fd06ce.js.map": "/portifolio/static/js/main.18fd06ce.js.map",
     "787.be55e6d0.chunk.js.map": "/portifolio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0b290e5.css",
-    "static/js/main.51761c13.js"
+    "static/css/main.474963aa.css",
+    "static/js/main.18fd06ce.js"
   ]
 }
