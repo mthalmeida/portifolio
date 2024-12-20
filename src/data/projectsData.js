@@ -31,7 +31,7 @@ const projects = [
     name: 'Monitor para criptomoedas',
     description:
       'Monitor desenvolvido com HTML, CSS e JavaScript, que acompanha em tempo real as top 15 criptomoedas do mercado. Utilizando uma integração de uma API externa e com o design elaborado para que seja usado em monitores externos, atualiza automaticamente todos os valores a cada 5 minutos, garantindo informações atualizadas.',
-    url: 'https://github.com/mthalmeida/TestAsync',
+    url: 'https://github.com/mthalmeida/JSAsync',
     page: 'https://mthalmeida.github.io/JSAsync/',
     image: monitorCripto
   },
