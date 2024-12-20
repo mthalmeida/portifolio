@@ -56,8 +56,8 @@
 }
 
 .skills-icons li {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,6 +105,10 @@
 
 .skills-icons li:nth-child(10) {
   animation-delay: 0.9s;
+}
+
+.skills-icons li:nth-child(11) {
+  animation-delay: 1.0s;
 }
 
 .skills-icons li img {

@@ -10,6 +10,7 @@ import npm from './images/skills/npm.png'
 import php from './images/skills/php.png'
 import reactImg from './images/skills/react.png'
 import typescript from './images/skills/typescript.png'
+import mui from './images/skills/mui.png'
 
 export default class Header extends React.Component {
   render () {
@@ -23,7 +24,8 @@ export default class Header extends React.Component {
       { name: 'NPM', img: npm },
       { name: 'PHP', img: php },
       { name: 'React', img: reactImg },
-      { name: 'TypeScript', img: typescript }
+      { name: 'TypeScript', img: typescript },
+      { name: 'Mui', img: mui }
     ]
 
     return (

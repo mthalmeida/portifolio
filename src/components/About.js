@@ -11,10 +11,11 @@ export default class About extends React.Component {
         sx={{
           paddingTop: 20,
           display: 'flex',
-          justifyContent: 'center',
+          justifyContent: 'space-between',
           alignItems: 'center',
           minHeight: '100vh',
-          width: '100%'
+          width: '100%',
+          marginBottom: '60px'
         }}
       >
         <div className="about">
@@ -29,7 +30,8 @@ export default class About extends React.Component {
                       overflow: 'visible',
                       backgroundColor: '#001520',
                       borderRadius: '20px',
-                      padding: 5
+                      padding: 5,
+                      margin: 2
                     }}
                     className="cardAnimation"
                     style={{ animationDelay: `${index * 0.2}s` }}

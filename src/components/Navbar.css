@@ -1,40 +1,23 @@
-.navbar {
-    background-color: transparent;
-    box-shadow: none;
-    transition: background-color 0.3s ease;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+.menu-topo {
+    background-color: #001520 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.navbar.scrolled {
-    background-color: #001520;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.menu-icon-circular {
+    background-color: #ffffff !important;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    z-index: 9999;
 }
 
-.navbar.notScrolled {
-    background-color: #00000000;
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+.menu-icon-circular:hover {
+    transform: scale(1.1);
 }
 
-.navbar .menu-buttons {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-.navbar .menu-buttons .MuiButton-root {
-    padding: 10px 20px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.navbar .menu-buttons .MuiButton-root:hover {
-    background-color: #002b42;
-}
-
-.navbar .MuiTypography-root {
-    display: none;
+.drawer-paper-custom {
+    width: 300px;
+    border-radius: 16px 0 0 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }

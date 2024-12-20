@@ -28,7 +28,7 @@ const Contato = () => {
                     <Typography variant="h6" sx={{ fontWeight: 'bold', marginTop: '10px', color: '#001520' }}>
                         E-mail:
                     </Typography>
-                    <Typography sx={{ color: '#001520' }}>contato@matheusalmeidadev.com.br</Typography>
+                    <Typography sx={{ color: '#001520' }}>matheusalmeida.desenvolvedor@gmail.com</Typography>
                 </Grid>
 
                 <Grid item xs={12} sm={4} display="flex" flexDirection="column" alignItems="center">
