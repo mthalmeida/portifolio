@@ -1,11 +1,9 @@
 const about = [
   {
     title: 'Quem sou eu?',
-    subTitle: 'Dev. Full Stack',
-    text: `"Administrador amante da tecnologia com mais de 15 anos de experiência. Acredito que os dados devem orientar as decisões, mas com criatividade para apoiá-los. Constante aprendiz, fascinado em contribuir para o desenvolvimento de pessoas, proporcionar melhorias de negócios, adquirir e compartilhar conhecimentos.
-
-    Tenho experiência com HTML5, CSS3, JavaScript e ReactJS e estou sempre buscando aprimorar minhas habilidades em outras linguagens de programação e frameworks. Além disso, sou adepto de metodologias ágeis como o Scrum, e utilizo esses métodos em minha rotina de trabalho.
-Atualmente, estudo Desenvolvimento WEB na Trybe buscando aprender e aprimorar meus conhecimentos que abrange temas de Hard skills, boas práticas de desenvolvimento e aprimoramento de Soft skills."`
+    subTitle: 'Desenvolvedor Full Stack',
+    text: `"Sou um desenvolvedor Mineiro que ama criar novas ideias. Minha abordagem se fundamenta na crença de que a análise de dados é essencial para a tomada de decisões eficazes, sempre aliando criatividade e inovação. Meu interesse vai além do mero cumprimento de tarefas; busco ativamente contribuir para o crescimento de pessoas e a melhoria contínua dos negócios, compartilhando conhecimentos adquiridos ao longo da minha jornada.
+            Possuo habilidades sólidas em desenvolvimento WEB com TypeScript e ReactJS utilizando Bootstrap/MUI e desenvolvimento de Software com CSharp e Delphi utilizando DevExpress. Busco estar sempre em constante evolução, explorando novas linguagens de programação e frameworks que possam aprimorar minha atuação. Além disso, trabalho com metodologias ágeis, como Scrum, que têm sido fundamentais em minha rotina, permitindo maior eficiência e colaboração nas equipes."`
   }
 ]
 
