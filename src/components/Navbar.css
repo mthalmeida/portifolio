@@ -1,0 +1,40 @@
+.navbar {
+    background-color: transparent;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background-color: #001520;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar.notScrolled {
+    background-color: #00000000;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.navbar .menu-buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar .menu-buttons .MuiButton-root {
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .menu-buttons .MuiButton-root:hover {
+    background-color: #002b42;
+}
+
+.navbar .MuiTypography-root {
+    display: none;
+}

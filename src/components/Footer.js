@@ -23,7 +23,7 @@ export default class Footer extends React.Component {
                     className="github"
                     href="https://github.com/mthalmeida"
                   >
-                    <i className="fa fa-github" />
+                    <i className="fa fa-github" style={{ color: '#001520' }} />
                   </a>
                 </li>
                 <li>
@@ -33,7 +33,7 @@ export default class Footer extends React.Component {
                     className="linkedin"
                     href="https://www.linkedin.com/in/mthalmeida/"
                   >
-                    <i className="fa fa-linkedin" />
+                    <i className="fa fa-linkedin" style={{ color: '#001520' }} />
                   </a>
                 </li>
                 <li>
@@ -43,7 +43,7 @@ export default class Footer extends React.Component {
                     className="instagram"
                     href="https://instagram.com/mthalmeida"
                   >
-                    <i className="fa fa-instagram" />
+                    <i className="fa fa-instagram" style={{ color: '#001520' }}/>
                   </a>
                 </li>
                 <li>
@@ -53,7 +53,7 @@ export default class Footer extends React.Component {
                     className="whatsapp"
                     href="https://wa.me/5531994405788?text=Vim+pelo+site+de+desenvolvimento%21"
                   >
-                    <i className="fa fa-whatsapp" />
+                    <i className="fa fa-whatsapp" style={{ color: '#001520' }}/>
                   </a>
                 </li>
                 <li>
@@ -63,7 +63,7 @@ export default class Footer extends React.Component {
                     className="facebook"
                     href="https://www.facebook.com/matheusalmeida.mobelar/"
                   >
-                    <i className="fa fa-facebook" />
+                    <i className="fa fa-facebook" style={{ color: '#001520' }}/>
                   </a>
                 </li>
               </ul>

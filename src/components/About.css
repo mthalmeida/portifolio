@@ -1,0 +1,42 @@
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.cardAnimation {
+    animation: fadeSlideIn 1s ease-out forwards;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.tech-icons {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.tech-icons>* {
+    margin: 0 10px;
+}
+
+.separator {
+    width: 70%;
+    border: 0;
+    border-top: 2px solid #5a5a5a;
+    margin: 20px auto;
+}
