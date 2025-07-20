@@ -16,9 +16,8 @@ export default class App extends Component {
   }
 
   componentDidMount () {
-    setTimeout(() => {
-      this.setState({ loading: false })
-    }, 1000)
+    // Redireciona para o site externo
+    window.location.href = 'https://apresentation-nine.vercel.app/'
   }
 
   render () {
